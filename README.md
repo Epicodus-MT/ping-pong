@@ -1,6 +1,6 @@
 # _Ping-Pong_
 
-#### _Takes a number from a user and returns a range of numbers with different exceptions, June 9, 2017 _
+#### _Takes a number from a user and returns a range of numbers with different exceptions, June 9, 2017_
 
 #### By _**Mara Timberlake**_
 
@@ -13,10 +13,10 @@ _* Numbers divisible by 15 are replaced with "ping-pong"_
 
 ## Specifications
 
-_* It can count up to the provided number_
-_* It can take a number divisible by 3 and replace with "ping"_
-_* It can take a number divisible by 5 and replace with "pong"_
-_* It can take a number divisible by 3 and 5 and replace with "ping-pong"_
+* _It can count up to the provided number_
+* _It can take a number divisible by 3 and replace with "ping"_
+* _It can take a number divisible by 5 and replace with "pong"_
+* _It can take a number divisible by 3 and 5 and replace with "ping-pong"_
 
 ## Setup/Installation Requirements
 
