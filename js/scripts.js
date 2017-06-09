@@ -1,13 +1,15 @@
 $(document).ready(function() {
   $("form#form").submit(function(event) {
     event.preventDefault();
-    var number = parseInt($("#number").val());  //turns user input to num
+    var number = parseInt($("#number").val());  //turns user input to number
 
-    //debugger;
+    debugger;
     var result = numberList(number);
     $("#result").text(result);
   });
 });
+
+
 
 var numberList = function(number) {
   var array = [];

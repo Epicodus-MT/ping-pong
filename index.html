@@ -10,12 +10,16 @@
   </head>
   <body>
     <div class="container">
-      <h1>Ping-Pong</h1>
+      <div class="jumbotron">
+        <h1>Ping-Pong</h1>
+        <img src="img/ping-pong2.jpg" alt="ping-pong" style="width:20%">
+      </div>
       <h2>Let's play!</h2>
       <h3>Rules:</h3>
       <p>Ping Pong will count up to you number from 1 with the following exceptions:
       <ol>
-        <li>Numbers divisible by 3 become "ping"</li>
+        <li>Numbers divisible by 3 become <em>
+        "ping"</em></li>
         <li>Numbers divisible by 5 become "pong"</li>
         <li>Numbers divisible by 3 and 5 become "ping-pong"</li>
       </ol></p>
@@ -28,8 +32,8 @@
         <button type="submit" class="btn">Number List</button>
       </form>
       <div id="result">
-        <!-- <h3>The results are: <span id="result"></span></h3> -->
-        <ul id="newNumberList"></ul>
+        <ul id="unorderedList">
+        </ul>
       </div>
     </div>
   </body>
