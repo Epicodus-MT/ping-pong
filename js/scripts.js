@@ -1,8 +1,6 @@
 $(document).ready(function() {
   $("form#form").submit(function(event) {
     event.preventDefault();
-
-
     var number = parseInt($("#number").val());  //turns user input to number
     var result = numberList(number);
     $("#result").text(result);
@@ -27,10 +25,5 @@ var numberList = function(number) {
       array.push(counter);
     }
   }
-
-  array.forEach(function(item){
-    //in each loop, append a line item in results
-    $("#results").append("<li>" + number + "</li>");
-  });
   return array;
 }
