@@ -1,0 +1,86 @@
+body {
+  background-color: #B4F2EA;
+  background-image: url("../img/stripes.jpeg");
+  text-align: center;
+}
+
+.jumbotro {
+
+  max-width: 900px;
+  margin: auto;
+}
+.container {
+  padding-top: 30px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  background-color: #AED6F1
+}
+
+.center-body ol {
+  max-width: 200px;
+  margin: auto;
+}
+
+.center-body ul {
+  max-width: 200px;
+  margin: auto;
+}
+
+.center-body h3 {
+  text-align: center;
+}
+
+.center-position {
+  text-align: center;
+}
+
+.left-position {
+  text-align: left;
+}
+.panel{
+  max-width: 600px;
+  margin: auto;
+}
+.projects {
+  max-width: 600px;
+  margin: auto;
+}
+.about-me {
+  max-width: 800px;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  text-align: left;
+  background-color: #DAECEF;
+}
+
+.space {
+  max-width: 700px;
+  margin: auto;
+}
+.center-body#background {
+  background: #A9DFBF;
+}
+
+.center-body#hobbies {
+  background: #FADBD8  ;
+}
+
+.center-body#why-programming {
+  background: #E8DAEF;
+}
+
+.bg-info img {
+  float:right;
+}
+
+.bg-info {
+  max-width: 400px;
+  margin: auto;
+}
+.thank-you {
+  text-align: center;
+}

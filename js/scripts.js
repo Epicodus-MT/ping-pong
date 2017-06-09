@@ -28,5 +28,9 @@ var numberList = function(number) {
     }
   }
 
+  array.forEach(function(item){
+    //in each loop, append a line item in results
+    $("#results").append("<li>" + number + "</li>");
+  });
   return array;
 }

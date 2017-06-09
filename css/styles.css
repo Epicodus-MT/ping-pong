@@ -6,9 +6,13 @@ body {
   background-repeat: repeat;
   margin-top: 20%;
   margin-bottom: 20%;
-  height: 80%;
+  height: 90%;
   width: 80%;
   margin: auto;
+}
+
+#myTopnav p {
+  color: #ff6600;
 }
 
 .topBar{
