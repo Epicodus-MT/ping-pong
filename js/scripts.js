@@ -9,7 +9,7 @@ $(document).ready(function() {
   });
 });
 
-var numberList = function(number) {    //1
+var numberList = function(number) {
   var array = [];
   for (var counter = 1; counter <= number; counter++) {
     if (counter % 5 === 0) {
@@ -27,5 +27,5 @@ var numberList = function(number) {    //1
       array.push(counter);
     }
   }
-  return array;
+ return array;
 }
