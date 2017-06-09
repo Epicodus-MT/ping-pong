@@ -3,15 +3,15 @@ $(document).ready(function() {
     event.preventDefault();
     var number = parseInt($("#number").val());  //turns user input to num
 
-    var result = numberList(number);   //1
+    //debugger;
+    var result = numberList(number);
     $("#result").text(result);
   });
-
 });
 
 var numberList = function(number) {    //1
   var array = [];
-  for (var counter = 0; counter <= number; counter++) {
+  for (var counter = 1; counter <= number; counter++) {
     if (counter % 5 === 0) {
     	if (counter % 3 === 0) {
     		//print "ping-pong"
@@ -26,7 +26,6 @@ var numberList = function(number) {    //1
     } else {
       array.push(counter);
     }
+  }
+  return array;
 }
-
-var finalArray = array.join("");
-return finalArray;
