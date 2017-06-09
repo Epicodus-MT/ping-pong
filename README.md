@@ -18,6 +18,9 @@ _* Numbers divisible by 15 are replaced with "ping-pong"_
 * _It can take a number divisible by 5 and replace with "pong"_
 * _It can take a number divisible by 3 and 5 and replace with "ping-pong"_
 
+_Example Input: [15]_
+_Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong]_
+
 ## Setup/Installation Requirements
 
 * _LOCAL: Open ping-pong folder and open index.html_
