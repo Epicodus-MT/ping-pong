@@ -1,6 +1,8 @@
 $(document).ready(function() {
   $("form#form").submit(function(event) {
     event.preventDefault();
+
+
     var number = parseInt($("#number").val());  //turns user input to number
     var result = numberList(number);
     $("#result").text(result);
