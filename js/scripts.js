@@ -2,14 +2,10 @@ $(document).ready(function() {
   $("form#form").submit(function(event) {
     event.preventDefault();
     var number = parseInt($("#number").val());  //turns user input to number
-
-    debugger;
     var result = numberList(number);
     $("#result").text(result);
   });
 });
-
-
 
 var numberList = function(number) {
   var array = [];
@@ -29,5 +25,6 @@ var numberList = function(number) {
       array.push(counter);
     }
   }
- return array;
+
+  return array;
 }

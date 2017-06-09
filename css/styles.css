@@ -9,9 +9,6 @@ body {
   height: 80%;
   width: 80%;
   margin: auto;
-
-
-
 }
 
 .topBar{
@@ -22,13 +19,20 @@ body {
 .container {
   padding-left: 20%;
   padding-right: 20%;
-  margin: auto;
-  background-color: #AED6F1
+  padding-bottom: 40px;
+  /*margin: auto;*/
+  background-color: #BEFEA5
+
 }
 
+#result {
+  font-weight: bold;
+  text-align: center;
+}
 .jumbotron {
   margin-top: 20px;
   text-align: center;
+  background-color: #D3F7D3;
 }
 
 img {
