@@ -18,7 +18,7 @@ _* Numbers divisible by 15 are replaced with "ping-pong"_
 _**Example Input: [4];**_
 _**Example Output: [1, 2, ping, 4]**_
 
-* _It can take a number divisible by 5 and replace with "pong" --> _
+* _It can take a number divisible by 5 and replace with "pong" -->_
 _**Example Input: [13];**_
 _**Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13]**_
 
