@@ -15,16 +15,16 @@ _* Numbers divisible by 15 are replaced with "ping-pong"_
 
 * _It can count up to the provided number_
 * _It can take a number divisible by 3 and replace with "ping"_
-_Example Input: [4];_
-_Example Output: [1, 2, ping, 4]_
+_**Example Input: [4];**_
+_**Example Output: [1, 2, ping, 4]**_
 
 * _It can take a number divisible by 5 and replace with "pong"_
-_Example Input: [13];_
-_Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13]_
+_**Example Input: [13];**_
+_**Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13]**_
 
 * _It can take a number divisible by 3 and 5 and replace with "ping-pong"_
-_Example Input: [15];_
-_Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong]_
+_**Example Input: [15];**_
+_**Example Output: [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong]**_
 
 ## Setup/Installation Requirements
 
